@@ -37,3 +37,17 @@
     ```
 
   * Arguments array: `node -p "process.argv" hello 42`
+
+### NPM
+
+* Version: `npm -v`
+* Update: `npm install -g npm`
+* Show dependency tree `npm ls`
+* Packages
+  * Individual
+    * Install: `npm i <PACKAGE_NAME>`
+    * Uninstall: `npm uninstall <PACKAGE_NAME>`
+    * Show versions: `npm show <PACKAGE_NAME> versions`
+  * All
+    * Show version updates: `npm outdated`
+    * Update: `npm update`
